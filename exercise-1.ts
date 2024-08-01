@@ -1,11 +1,14 @@
+//SOLVED
 // Exercise:
 // Given the data, define the interface "User" and use it accordingly.
 
+export type User = {
+    name: string;
+    age: number;
+    occupation: string;
+};
 
-
-export type User = unknown;
-
-export const users: unknown[] = [
+export const users: User[] = [
     {
         name: 'Max Mustermann',
         age: 25,
@@ -18,7 +21,7 @@ export const users: unknown[] = [
     }
 ];
 
-export function logPerson(user: unknown) {
+export function logPerson(user: User) {
     console.log(` - ${user.name}, ${user.age}`);
 }
 
