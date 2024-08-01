@@ -1,3 +1,3 @@
 ## Typescript Exercises
 
-Adding Exersizes, then commit to fix issues
+Adding Exercises, then commit to fix issues
